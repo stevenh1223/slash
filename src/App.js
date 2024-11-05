@@ -36,7 +36,7 @@ const App = () => {
           <button className="headerBtn"> all crewmates </button>
         </Link>
         <Link to="/new">
-          <button className="headerBtn"> create crewmates </button>
+          <button className="headerBtn"> create crewmate </button>
         </Link>
       </div>
       {element}

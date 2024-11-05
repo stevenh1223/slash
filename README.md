@@ -1,20 +1,20 @@
-# Web Development Project 7 - _Name of App Here_
+# Web Development Project 7 - _crewmates_
 
-Submitted by: **Your Name Here**
+Submitted by: **Steven Hsiao**
 
-This web app: **insert description**
+This web app: **A website to add, edit and delete crewmates**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **A create form allows users to add new cremates**
-- [ ] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
-- [ ] **The site displays a summary page of all the user's added crewmates**
-- [ ] **A previously created crewmate can be updated from the crewmate list**
-- [ ] **A previously created crewmate can be deleted from the crewmate list**
+- [x] **A create form allows users to add new cremates**
+- [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
+- [x] **The site displays a summary page of all the user's added crewmates**
+- [x] **A previously created crewmate can be updated from the crewmate list**
+- [x] **A previously created crewmate can be deleted from the crewmate list**
 - [ ] **Each crewmate has a direct, unique link to an info page about them**
 
 The following **optional** features are implemented:
@@ -31,11 +31,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./crewmates.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with Gifski
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -44,11 +44,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Try to be more familiar with CRUD.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Steven Hsiao]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
