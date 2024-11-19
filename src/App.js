@@ -6,6 +6,7 @@ import CreatePost from "./pages/CreatePost";
 import EditPost from "./pages/EditPost";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import PostDetail from "./pages/PostDetail";
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -22,6 +23,10 @@ const App = () => {
     {
       path: "/new",
       element: <CreatePost />,
+    },
+    {
+      path: "/post/:id",
+      element: <PostDetail data={posts} />,
     },
   ]);
 

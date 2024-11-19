@@ -1,0 +1,41 @@
+.PostDetail {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PostDetail h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.PostDetail p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.PostDetail p strong {
+  font-weight: 900;
+}
+
+.PostDetail button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1a1a1a; /* Add a background color */
+  border: 1px solid transparent; /* Add a border */
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s; /* Add transition for smooth effect */
+}
+
+.PostDetail button:hover {
+  border-color: #646cff;
+  background-color: #333; /* Change background color on hover */
+}
+
+.commentSubmit {
+  margin-top: 10px;
+}

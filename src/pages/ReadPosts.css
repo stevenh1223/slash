@@ -1,7 +1,47 @@
 .ReadPosts {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.sortButtons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sortButtons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+.sortButtons button:hover {
+  border-color: #646cff;
+  background-color: #333;
+}
+
+.searchBar {
+  margin-bottom: 20px;
+}
+
+.searchBar input {
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

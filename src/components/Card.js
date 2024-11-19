@@ -17,15 +17,17 @@ const Card = (props) => {
 
   return (
     <div className="Card">
-      <Link to={"edit/" + props.id}>
-        <img className="moreButton" alt="edit button" src={more} />
+      <Link to={"post/" + props.id}>
+        <div className="cardContent">
+          <h2 className="title">
+            {"From " + props.oldMajor + " to " + props.newMajor}
+          </h2>
+          <h3 className="vote">{"👍 votes: " + props.vote}</h3>
+          <p className="timestamp">
+            {"Posted: " + formatDate(props.timestamp)}
+          </p>
+        </div>
       </Link>
-      <h2 className="title">
-        {"Transfer from " + props.oldMajor + " to " + props.newMajor}
-      </h2>
-
-      <h3 className="vote">{"👍 votes: " + props.vote}</h3>
-      <p className="timestamp">{"Posted: " + formatDate(props.timestamp)}</p>
     </div>
   );
 };
