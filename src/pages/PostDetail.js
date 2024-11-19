@@ -145,7 +145,7 @@ const PostDetail = () => {
       <p>
         <strong>Posted:</strong> {new Date(post.created_at).toLocaleString()}
       </p>
-      <button onClick={updateCount}>{"👍 Vote: " + post.vote}</button>
+      <button onClick={updateCount}>{"👍 Vote: " + count}</button>
 
       <div className="comments">
         <h1>Comments</h1>
