@@ -50,7 +50,7 @@ GIF created with Gifski
 
 ## Notes
 
-The comment section is the most difficult part.
+The comment section is the most challenging part.
 
 ## License
 
