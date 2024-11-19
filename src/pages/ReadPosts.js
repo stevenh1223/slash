@@ -24,13 +24,14 @@ const ReadPosts = (props) => {
         posts.map((post) => (
           <Card
             id={post.id}
-            name={post.name}
-            nickname={post.nickname}
-            speed={post.speed}
+            timestamp={post.created_at}
+            oldMajor={post.oldMajor}
+            newMajor={post.newMajor}
+            vote={post.vote}
           />
         ))
       ) : (
-        <h2>{"No Crewmates Yet"}</h2>
+        <h2>{"No Posts Yet"}</h2>
       )}
     </div>
   );

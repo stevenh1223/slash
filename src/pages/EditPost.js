@@ -8,9 +8,8 @@ const EditPost = ({ data }) => {
   const { id } = useParams();
   const [post, setPost] = useState({
     id: null,
-    name: "",
-    nickname: "",
-    speed: 0,
+    oldMajor: "",
+    newMajor: "",
   });
 
   useEffect(() => {
@@ -46,7 +45,10 @@ const EditPost = ({ data }) => {
 
     await supabase
       .from("Posts")
-      .update({ name: post.name, nickname: post.nickname, speed: post.speed })
+      .update({
+        oldMajor: post.oldMajor,
+        newMajor: post.newMajor,
+      })
       .eq("id", id);
 
     window.location = "/";
@@ -63,40 +65,26 @@ const EditPost = ({ data }) => {
   return (
     <div>
       <form>
-        <label for="name">Name</label> <br />
+        <label for="oldMajor">Original Major</label> <br />
         <input
           type="text"
-          id="name"
-          name="name"
-          value={post.name}
+          id="oldMajor"
+          name="oldMajor"
+          value={post.oldMajor}
           onChange={handleChange}
         />
         <br />
         <br />
-        <label for="nickname">Nickname</label>
+        <label for="newMajor">New Major</label>
         <br />
         <input
           type="text"
-          id="nickname"
-          name="nickname"
-          value={post.nickname}
+          id="newMajor"
+          name="newMajor"
+          value={post.newMajor}
           onChange={handleChange}
         />
         <br />
-        <label for="speed">Speed</label>
-        <div>
-          {[...Array(3).keys()].map((num) => (
-            <label key={num + 1}>
-              {num + 1}
-              <input
-                type="radio"
-                name="speed"
-                value={num + 1}
-                onChange={handleChange}
-              />
-            </label>
-          ))}
-        </div>
         <br />
         <input type="submit" value="Edit" onClick={updatePost} />
         <button className="deleteButton" onClick={deletePost}>

@@ -5,13 +5,10 @@ import ReadPosts from "./pages/ReadPosts";
 import CreatePost from "./pages/CreatePost";
 import EditPost from "./pages/EditPost";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const App = () => {
-  const posts = [
-    { id: "1", name: "Cartwheel in Chelsea 🤸🏽‍♀️", nickname: "Harvey Milian" },
-    { id: "2", name: "Love Lock in Paris 🔒", nickname: "Beauford Delaney" },
-  ];
-
+  const [posts, setPosts] = useState([]);
   // Sets up routes
   let element = useRoutes([
     {
@@ -31,12 +28,13 @@ const App = () => {
   return (
     <div className="App">
       <div className="header">
-        <h1>crewmates</h1>
+        <h1>Slash</h1>
+        <p>Sharing Grad School Major Transfer Experiences After Bachelor's</p>
         <Link to="/">
-          <button className="headerBtn"> all crewmates </button>
+          <button className="headerBtn"> all posts </button>
         </Link>
         <Link to="/new">
-          <button className="headerBtn"> create crewmate </button>
+          <button className="headerBtn"> create post </button>
         </Link>
       </div>
       {element}
