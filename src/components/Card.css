@@ -9,12 +9,6 @@
   text-align: center;
 }
 
-.cardContent {
-  display: flex;
-  align-items: center; /* Center items vertically */
-  white-space: nowrap; /* Prevent text from wrapping */
-}
-
 .title,
 .vote,
 .timestamp {
@@ -22,10 +16,6 @@
   color: white;
   padding-left: 30px;
   font-size: 24px;
-}
-
-.vote {
-  margin-left: auto; /* Push the timestamp to the right */
 }
 
 a {
