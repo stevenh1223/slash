@@ -72,7 +72,7 @@ const EditPost = ({ data }) => {
 
     await supabase.from("Posts").delete().eq("id", id);
 
-    navigate(`/post/${id}`);
+    navigate(`/`);
   };
 
   return (
