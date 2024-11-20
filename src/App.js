@@ -22,7 +22,7 @@ const App = () => {
     },
     {
       path: "/new",
-      element: <CreatePost />,
+      element: <CreatePost setPosts={setPosts} />,
     },
     {
       path: "/post/:id",

@@ -92,7 +92,7 @@ const PostDetail = () => {
   const addComment = async (event) => {
     event.preventDefault();
 
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from("Comments")
       .insert([{ post_id: id, content: newComment }]);
 
