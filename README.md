@@ -1,4 +1,4 @@
-# Slash – Sharing Grad School Major Transfer Experiences After Bachelor's 
+# 🎓Slash – Sharing Grad School Major Transfer Experiences After Bachelor's 
 
 **Submitted by:** _Steven Hsiao_  
 **CodePath Intermediate Web Development Course:** Web Development Final Project
