@@ -8,6 +8,7 @@ A responsive web application designed to help students share personal experience
 
 🕒 **Time spent:** ~15 hours total
 
+--
 
 ## ✅ Core Features
 
