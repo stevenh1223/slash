@@ -1,7 +1,7 @@
 # Slash – Sharing Grad School Major Transfer Experiences After Bachelor's 
 
 **Submitted by:** _Steven Hsiao_  
-**Course Project:** Web Development Final Project
+**CodePath Intermediate Web Development Course:** Web Development Final Project
 
 **Description:**  
 A responsive web application designed to help students share personal experiences of switching graduate school majors after completing their undergraduate studies. Built with a focus on usability, engagement, and clear architecture.
