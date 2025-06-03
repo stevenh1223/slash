@@ -8,8 +8,6 @@ A responsive web application designed to help students share personal experience
 
 🕒 **Time spent:** ~15 hours total
 
----
-
 ## ✅ Core Features
 
 - 📝 Users can **create posts** with title, optional content, and image (via external URL)
@@ -20,8 +18,6 @@ A responsive web application designed to help students share personal experience
 - 💬 **Commenting system** under each post
 - ⬆️ **Upvote functionality** (multi-click enabled)
 - ✏️ **Edit and delete** options for individual posts
-
----
 
 ## Video Walkthrough
 
@@ -38,14 +34,10 @@ GIF created with Gifski
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
----
-
 ## 🛠 Tech Stack
 
 - **Frontend:** React.js  
 - **Backend:** Supabase *(currently paused)*  
-
----
 
 ## 📁 Project Structure
 
@@ -65,14 +57,10 @@ slash/
 └── README.md
 '''
 
----
-
 ## ⚠️ Status Notice
 
 ⚠️ **Supabase backend is currently paused**  
 Frontend remains fully functional and all source code is available for review.
-
----
 
 ## License
 
