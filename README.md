@@ -8,6 +8,7 @@ A responsive web application designed to help students share personal experience
 
 🕒 **Time spent:** ~15 hours total
 
+
 ## ✅ Core Features
 
 - 📝 Users can **create posts** with title, optional content, and image (via external URL)
@@ -18,6 +19,7 @@ A responsive web application designed to help students share personal experience
 - 💬 **Commenting system** under each post
 - ⬆️ **Upvote functionality** (multi-click enabled)
 - ✏️ **Edit and delete** options for individual posts
+
 
 ## Video Walkthrough
 
