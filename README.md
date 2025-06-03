@@ -89,3 +89,17 @@ Frontend remains fully functional and all source code is available for review.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+---
+
+## Why This Project Matters
+
+This web app wasn’t just about checking off features — it was about building something meaningful from the ground up. I designed and built a platform that helps people share their experiences switching fields for grad school, something I personally found missing online.
+
+Along the way, I:
+
+- Built a full-stack web app using Supabase and React  
+- Designed features like searchable/sortable posts, comments, and upvotes to keep things interactive  
+- Focused on user experience and simplicity, even when handling messy real-world content  
+
+This project helped sharpen not just my coding, but also my ability to think like a builder: how to take an idea, figure out what matters most, and get it working for real users.
