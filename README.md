@@ -1,26 +1,27 @@
-# Web Development Final Project - _Slash_
+# 🚀 Slash – Share Your Grad School Transfer Journey
 
-Submitted by: **Steven Hsiao**
+**Submitted by:** _Steven Hsiao_  
+**Course Project:** Web Development Final Project
 
-This web app: **A Platform for Sharing Grad School Major Transfer Experiences After Bachelor's**
+**Description:**  
+A responsive web application designed to help students share personal experiences of switching graduate school majors after completing their undergraduate studies. Built with a focus on usability, engagement, and clear architecture.
 
-Time spent: **15** hours spent in total
+🕒 **Time spent:** ~15 hours total
 
-## Required Features
+---
 
-The following **required** functionality is completed:
+## ✅ Core Features
 
-- [x] **A create form that allows the user to create posts**
-- [x] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
-- [x] **A home feed displaying previously created posts**
-- [x] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
-- [x] **Clicking on a post shall direct the user to a new page for the selected post**
-- [x] **Users can sort posts by either their created time or upvotes count**
-- [x] **Users can search for posts by title**
-- [x] **A separate post page for each created post, where any additional information is shown is linked whenever a user clicks a post**
-- [x] **Users can leave comments underneath a post on the post's separate page**
-- [x] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
-- [x] **A previously created post can be edited or deleted from its post page**
+- 📝 Users can **create posts** with title, optional content, and image (via external URL)
+- 🏠 **Home feed** shows posts with title, timestamp, and upvote count
+- 📅 **Sorting** by creation time or upvotes
+- 🔎 **Search** posts by title
+- 📄 **Dedicated post pages** displaying full content and comments
+- 💬 **Commenting system** under each post
+- ⬆️ **Upvote functionality** (multi-click enabled)
+- ✏️ **Edit and delete** options for individual posts
+
+---
 
 ## Video Walkthrough
 
@@ -36,6 +37,42 @@ GIF created with Gifski
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js  
+- **Backend:** Supabase *(currently paused)*  
+
+---
+
+## 📁 Project Structure
+
+'''
+slash/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level React components
+│ ├── App.js # Main app logic
+│ ├── client.js # Supabase/client config
+│ ├── index.js # Entry point
+│ ├── App.css
+│ └── index.css
+├── package.json # Project config and dependencies
+├── slash.gif # Demo GIF
+└── README.md
+'''
+
+---
+
+## ⚠️ Status Notice
+
+⚠️ **Supabase backend is currently paused**  
+Frontend remains fully functional and all source code is available for review.
+
+---
 
 ## License
 
