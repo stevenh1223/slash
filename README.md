@@ -1,4 +1,4 @@
-# 🚀 Slash – Share Your Grad School Transfer Journey
+# Slash – Sharing Grad School Major Transfer Experiences After Bachelor's 
 
 **Submitted by:** _Steven Hsiao_  
 **Course Project:** Web Development Final Project
