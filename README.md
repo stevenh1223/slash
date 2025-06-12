@@ -94,7 +94,7 @@ Frontend remains fully functional and all source code is available for review.
 
 ## Why This Project Matters
 
-This web app wasn’t just about checking off features — it was about building something meaningful from the ground up. I designed and built a platform that helps people share their experiences switching fields for grad school, something I personally found missing online.
+This web app wasn’t just about checking off features. It was about building something meaningful from the ground up. I designed and built a platform that helps people share their experiences switching fields for grad school, something I personally found missing online.
 
 Along the way, I:
 
